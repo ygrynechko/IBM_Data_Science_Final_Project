@@ -1,6 +1,6 @@
-Calculate the fastest way from point A to point B with the use of the Warsaw city bikes.
+#Calculate the fastest way from point A to point B with the use of the Warsaw city bikes.
 
-#Introduction
+##Introduction
 
 Last two decades are being called the ‘golden age’ of Polish economic growth with its center in the country's capital, Warsaw.  Unfortunately with a great power comes great responsibility, in this case I am talking traffic which by far excided the road capacity. City residents on average spend 415 hours in traffic jams a year. It is more than an hour a day. In 2012 city bikes were introduced as one of the solutions for this issue. 
 As a former ‘Warszawiak’ I can recommend everyone who has an opportunity to visit the city to use one city bikes. They are amazingly cheap and easy to use. You can download mobile app and rent bike in no time. There are almost 400 bike stations with around 5700 bikes. 
@@ -9,7 +9,7 @@ Data
 
 To calculate the fastest route we will need location of the station with available bikes, as opposed to trying to calculate the fastest way from the station that has no available bikes.  All of this data is fairly simple to get from this page: https://www.veturilo.waw.pl/mapa-stacji/. 
 
-#Methodology
+##Methodology
 
 GitHub repository was used to host Jupiter notebook which was used to collect, store and visualize the data. First step is gathering the data from city bike provider’s webpage and storing it into the table.
  
@@ -41,11 +41,11 @@ Walking route from point destination station to point B:
 Overall route with mid section calculated for the for the bike:
  
  
-#Conclusion
+##Conclusion
 
 With available data and python libraries we were able to calculate the fastest route from A to B in the city of Warsaw with the use of city bikes.
 
-#Future plans
+##Future plans
 
 I plan on adding additional features to the app, calculating the bike route comfort. So the user can pick the route that only has bike lanes available. 
 Another feature is adding point in between. If user wants to do something on the way home we can calculate the fastest way to do that. Idea is to cluster the stations by the venues available around every station. 
