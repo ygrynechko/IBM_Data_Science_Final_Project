@@ -1,4 +1,4 @@
-title: Calculate the fastest way from point A to point B with the use of the Warsaw city bikes.
+Calculate the fastest way from point A to point B with the use of the Warsaw city bikes.
 
 #Introduction
 
